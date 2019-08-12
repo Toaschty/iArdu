@@ -10,7 +10,7 @@
      
      1. Gehen Sie in den Geräte-Manager(Windows-Suche) und suchen Sie den Eintrag "Arduino Leonardo" bzw "Unbekanntes Gerät" unter "Anschlüsse"
      2. Machen Sie einen Rechtsklick auf den Eintrag und wählen Sie "Treiber aktualisieren"
-     3. Wählen Sie "Auf dem Computer nach Treibersoftware suchen" und geben Sie als Pfad den iArdu-ORdner an.
+     3. Wählen Sie "Auf dem Computer nach Treibersoftware suchen" und geben Sie als Pfad den iArdu-Ordner an.
      4. Warten Sie bis die Installation erfolgreich durchgeführt wurde.
      
   2. Starten Sie die Anwendung "setup.exe" und folgen Sie den Anweisungen des Einrichtungsassistenten.
