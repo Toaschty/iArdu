@@ -33,7 +33,8 @@
    
    Automatisch Einfügen:
    
-    Falls dieses Häckchen gestzt wurde wird bei jedem Einlesen eines Chips automatisch dessen ID in das ausgewählte Textfeld kopiert
+    Falls dieses Häckchen gestzt wurde wird bei jedem Einlesen eines
+    Chips automatisch dessen ID in das ausgewählte Textfeld kopiert
    
    Vordergrund:
    
