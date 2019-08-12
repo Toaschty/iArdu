@@ -19,15 +19,20 @@
  
 # Nutzung
 
-   Textfeld              -> Hier wird die ID des Chips angezeigt. Die ID kann hier markiert und kopiert werden.
+   Textfeld:
+   Hier wird die ID des Chips angezeigt. Die ID kann hier markiert und kopiert werden.
    
-   Kopieren               -> Kopiert die ID in die Zwischenablage
+   Kopiere:
+   Kopiert die ID in die Zwischenablage
    
-   Löschen                -> Löscht das Textfeld
+   Löschen:
+   Löscht das Textfeld
    
-   Automatisch Einfügen   -> Falls dieses Häckchen gestzt wurde wird bei jedem Einlesen eines Chips automatisch dessen ID in das ausgewählte Textfeld kopiert
+   Automatisch Einfügen:
+   Falls dieses Häckchen gestzt wurde wird bei jedem Einlesen eines Chips automatisch dessen ID in das ausgewählte Textfeld kopiert
    
-   Vordergrund            -> Das Fenster bleibt dauerhaft im Vordergrund
+   Vordergrund:
+   Das Fenster bleibt dauerhaft im Vordergrund
    
 # Fehlerbehebung
  
