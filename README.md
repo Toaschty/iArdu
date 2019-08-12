@@ -19,21 +19,31 @@
  
 # Nutzung
 
-   Textfeld ->  Hier wird die ID des Chips angezeigt. Die ID kann hier markiert und kopiert werden.
+   Textfeld:
    
-   Kopiere ->   Kopiert die ID in die Zwischenablage
+    Hier wird die ID des Chips angezeigt. Die ID kann hier markiert und kopiert werden.
    
-   Löschen ->   Löscht das Textfeld
+   Kopiere
+    
+    Kopiert die ID in die Zwischenablage
    
-   Automatisch Einfügen ->    Falls dieses Häckchen gestzt wurde wird bei jedem Einlesen eines Chips automatisch dessen ID in das ausgewählte Textfeld kopiert
+   Löschen
    
-   Vordergrund ->   Das Fenster bleibt dauerhaft im Vordergrund
+    Löscht das Textfeld
+   
+   Automatisch Einfügen
+   
+    Falls dieses Häckchen gestzt wurde wird bei jedem Einlesen eines Chips automatisch dessen ID in das ausgewählte Textfeld kopiert
+   
+   Vordergrund
+   
+    Das Fenster bleibt dauerhaft im Vordergrund
    
 # Fehlerbehebung
  
    Der Reader ist angeschlossen und iArdu wurde gestartet aber es werden keine IDs angezeigt
    
-      ->Den Reader neu anschließen und das Programm neu starten
+        Den Reader neu anschließen und das Programm neu starten
       
    Der Reader wird nicht erkannt beim Startvorgang
    
