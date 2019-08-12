@@ -44,12 +44,12 @@
  
    Der Reader ist angeschlossen und iArdu wurde gestartet aber es werden keine IDs angezeigt
    
-        Den Reader neu anschließen und das Programm neu starten
+    Den Reader neu anschließen und das Programm neu starten
       
    Der Reader wird nicht erkannt beim Startvorgang
    
-        Der Reader muss im Geräte-Manager(Anschlüsse COM & LPT) als "Arduino ..." bekannt sein.
-        Falls das nicht der Fall sein sollte sind die Treiber nicht richtig installiert.
+    Der Reader muss im Geräte-Manager(Anschlüsse COM & LPT) als "Arduino ..." bekannt sein.
+    Falls das nicht der Fall sein sollte sind die Treiber nicht richtig installiert.
          
 # Wichtig
 
