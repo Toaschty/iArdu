@@ -48,7 +48,7 @@
       
    Der Reader wird nicht erkannt beim Startvorgang
    
-    Der Reader muss im Geräte-Manager(Anschlüsse COM & LPT) als "Arduino ..." bekannt sein.
+    Der Reader muss im Geräte-Manager(Anschlüsse COM & LPT) als "Arduino ..." bzw. "SparkFun ..." bekannt sein.
     Falls das nicht der Fall sein sollte sind die Treiber nicht richtig installiert.
          
 # Wichtig
