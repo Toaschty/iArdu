@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="iArdu.exe" version="1.6.1.0" publicKeyToken="7144ad47deba2c90" language="de-DE" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="iArdu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="iArdu.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC-Manifestoptionen
+             Wenn Sie die Ebene der Benutzerkontensteuerung für Windows ändern möchten, ersetzen Sie den 
+             Knoten "requestedExecutionLevel" wie folgt.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Durch Angabe des Elements "requestedExecutionLevel" wird die Datei- und Registrierungsvirtualisierung deaktiviert. 
+            Entfernen Sie dieses Element, wenn diese Virtualisierung aus Gründen der Abwärtskompatibilität
+            für die Anwendung erforderlich ist.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="iArdu.exe" size="28120">
+      <assemblyIdentity name="iArdu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EILDQK4beqbKn+9BXJyfPbB4G9HzhLD1mt/PEpGxZ44=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="iArdu.exe.config" size="1028">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LOstWmb1FffVNrl6PphrXf5ZkG9kcVCsPq56IS2Zn2U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UclYcqB+DoQFpaCjFjSrbEDEvADMpzgktncbLh3RSJk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Eine Liste der Windows-Versionen, unter denen diese Anwendung getestet
+           und für die sie entwickelt wurde. Wenn Sie die Auskommentierung der entsprechenden Elemente aufheben,
+           wird von Windows automatisch die kompatibelste Umgebung ausgewählt. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=RZ-KEMPTEN\im-sch01" issuerKeyHash="ba497b4fddab803c79414ba7cafde78b1216088c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2Qss4M2cDng9goU9DUXUySnnGoxXQt0yz2wh/2R+Ivo=</DigestValue></Reference></SignedInfo><SignatureValue>bDq/93PEPfOZvRbU1CI37fNmzxD50f6O6gn0pFogQ9bdGWFrlMBdho2X045qz8VI9qhsWJN9DO8wXGjTVzcRKmAMRs4lNDNaicEP0/OLwxclml2zbi4YIyE84tJz99lZyYCac8mL4yfTp1Mxyql4Id0gUH1qwH/K9Nt71Pf7QLQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>m2Ox8ny96yvZ3Nxegil/r/RCKcyDeFLblaxV0BTB2Zx5ezPUN9ghZ0rMQ3g3oDdhqhfsutRxGuj31v6kgqqKC1dOExIijk4BJsU+wWJqWRJYZIu8U6Z9GuW+BnbxVubpeZO1AwwwJfHf14LaZAXSmtmWo30hA0ZL7dxJfaUJHMU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fa227e64ff216ccf32dd42578c1ae729c9d4450d3d85823d780e9ccde02c0bd9" Description="" Url=""><as:assemblyIdentity name="iArdu.exe" version="1.6.1.0" publicKeyToken="7144ad47deba2c90" language="de-DE" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RZ-KEMPTEN\im-sch01</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xYwmDS0uNTlcW32Wx9UoaMjxKwLgSHM+ReOzLQ4DM9w=</DigestValue></Reference></SignedInfo><SignatureValue>hwBwOQPxeaIXP89s1Uce9+9R8ONjiJ2ygenSE/zrlRfVH/Zahic9u1dOSDDdgBgGIkrh5bEoosJ7JpdNKds53Z1yTyO4fwOxp14f39wCmFvUaiE26W97QX0tOVZgC05T7kq5gWSki+MQXF9W3B2jFPC3L7m+SuCNLEAjZYh675w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>m2Ox8ny96yvZ3Nxegil/r/RCKcyDeFLblaxV0BTB2Zx5ezPUN9ghZ0rMQ3g3oDdhqhfsutRxGuj31v6kgqqKC1dOExIijk4BJsU+wWJqWRJYZIu8U6Z9GuW+BnbxVubpeZO1AwwwJfHf14LaZAXSmtmWo30hA0ZL7dxJfaUJHMU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQZgtNGGmktLRGj27+dfWHsDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAUgBaAC0ASwBFAE0AUABUAEUATgBcAGkAbQAtAHMAYwBoADAAMTAeFw0xOTA4MDEwODI0MjdaFw0yMDA3MzExNDI0MjdaMDExLzAtBgNVBAMeJgBSAFoALQBLAEUATQBQAFQARQBOAFwAaQBtAC0AcwBjAGgAMAAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbY7HyfL3rK9nc3F6CKX+v9EIpzIN4UtuVrFXQFMHZnHl7M9Q32CFnSsxDeDegN2GqF+y61HEa6PfW/qSCqooLV04TEiKOTgEmxT7BYmpZElhki7xTpn0a5b4GdvFW5ul5k7UDDDAl8d/XgtpkBdKa2ZajfSEDRkvt3El9pQkcxQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAA8tS10eRCw7iDE8Y2emgGjabzNtLjf4tRw1vPEbKht/rc23virnNdQme29T7/uXVHRZjwq7VxkCUj5olU6UBQA+EVTrQAPWkmzklV7oOsGhWOiztrxhG879+ifgmsY4Gq9WXVos6VCqY80kVPiqY7bWnJGidlMXxzaaQh+v5V+7</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
